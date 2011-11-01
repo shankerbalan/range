@@ -1,0 +1,14 @@
+Source: mod-yahoo-range
+Section: httpd
+Priority: extra
+Maintainer: Shanker Balan <shanker.balan@inmobi.com>
+Build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 3.8.3
+Homepage: https://github.com/ytoolshed/range
+
+Package: libapache2-mod-yahoo-range
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libapache2-mod-range
+Description: LWES enabled Range module for apache2
+ Hostname and cluster manipulation libraries

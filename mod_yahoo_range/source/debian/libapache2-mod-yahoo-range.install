@@ -1,0 +1,3 @@
+.libs/mod_yahoo_range.so usr/lib/apache2/modules
+debian/range.load        etc/apache2/mods-available
+debian/range.conf        etc/apache2/mods-available
