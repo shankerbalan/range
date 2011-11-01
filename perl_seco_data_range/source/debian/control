@@ -1,0 +1,16 @@
+Source: libseco-data-range-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl
+Maintainer: Shanker Balan <shanker.balan@inmobi.com>
+Standards-Version: 3.8.3
+Homepage: https://github.com/ytoolshed/range
+
+Package: libseco-data-range-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: OO interface to ranged
+ TODO
+ .
+ This description was automagically extracted from the module by dh-make-perl.

@@ -1,0 +1,10 @@
+libseco-data-range-perl (1.0-2) unstable; urgency=low
+
+  * s/range.ysm/range.ops/
+
+ -- Shanker Balan <shanker.balan@inmobi.com>  Mon, 31 Oct 2011 08:20:07 +0000
+libseco-data-range-perl (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Shanker Balan <shanker.balan@inmobi.com>  Mon, 31 Oct 2011 08:20:07 +0000

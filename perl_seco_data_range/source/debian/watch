@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/dist/Seco-Data-Range/   .*/Seco-Data-Range-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
