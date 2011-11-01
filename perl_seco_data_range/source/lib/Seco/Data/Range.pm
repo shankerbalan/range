@@ -23,7 +23,7 @@ my $node_regex = qr/
 sub new {
     my $class            = shift;
     my __PACKAGE__ $self = fields::new($class);
-    my $default_server   = 'range.ysm';
+    my $default_server   = 'range.ops';
     if (@_ == 1) {
         $default_server = shift;
     }
