@@ -1,0 +1,28 @@
+Source: libcrange
+Priority: extra
+Maintainer: Shanker Balan <shanker.balan@inmobi.com>
+Build-Depends: debhelper (>= 7), autotools-dev
+Standards-Version: 3.8.3
+Section: libs
+Homepage: https://github.com/ytoolshed/range
+
+Package: libcrange-dev
+Section: libdevel
+Architecture: any
+Depends: libcrange1 (= ${binary:Version})
+Description: Hostname and cluster manipulation libraries
+ Details at https://github.com/ytoolshed/range
+
+Package: libcrange1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Hostname and cluster manipulation libraries
+ Details at https://github.com/ytoolshed/range
+
+Package: libcrange-dbg
+Section: debug
+Architecture: any
+Depends: libcrange1 (= ${binary:Version}), ${misc:Depends}
+Description: Hostname and cluster manipulation libraries
+ Details at https://github.com/ytoolshed/range
