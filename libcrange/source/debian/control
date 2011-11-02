@@ -20,6 +20,13 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Hostname and cluster manipulation libraries
  Details at https://github.com/ytoolshed/range
 
+Package: libcrange0-modules
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcrange0
+Description: Hostname and cluster manipulation libraries
+ Details at https://github.com/ytoolshed/range
+
 Package: libcrange0-dbg
 Section: debug
 Architecture: any
