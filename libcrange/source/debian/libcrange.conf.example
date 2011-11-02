@@ -4,9 +4,5 @@
 # Actual file gemstone managed
 #
 ############
-loadmodule ip
-loadmodule yst-ip-list
-loadmodule yamlfile
-perlmodule LibrangeUtils
-perlmodule LibrangeAdminscf
 
+loadmodule yamlfile

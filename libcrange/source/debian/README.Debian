@@ -1,6 +1,9 @@
 libcrange for Debian
 --------------------
 
-Pulled from Git
+- The perl modules under root/var/libcrange/*.pm are not part of the package
+- Copy over the sample libcrange.conf.example to /etc/libcrange.conf
+- dh-autoreconf package is needed to compile. Ubuntu Lucid package is available
+  from lucid-backports
 
  -- Shanker Balan <shanker.balan@inmobi.com>  Fri, 28 Oct 2011 08:00:18 +0000
