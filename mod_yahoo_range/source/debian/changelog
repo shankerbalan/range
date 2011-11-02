@@ -1,3 +1,9 @@
+mod-yahoo-range (1.1.0-2) unstable; urgency=low
+
+  * Compile with libcrange0
+
+ -- Shanker Balan <shanker.balan@inmobi.com>  Mon, 31 Oct 2011 06:16:09 +0000
+
 mod-yahoo-range (1.1.0-1) unstable; urgency=low
 
   * Initial release
