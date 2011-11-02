@@ -6,23 +6,23 @@ Standards-Version: 3.8.3
 Section: libs
 Homepage: https://github.com/ytoolshed/range
 
-Package: libcrange-dev
+Package: libcrange0-dev
 Section: libdevel
 Architecture: any
-Depends: libcrange1 (= ${binary:Version})
+Depends: libcrange0 (= ${binary:Version})
 Description: Hostname and cluster manipulation libraries
  Details at https://github.com/ytoolshed/range
 
-Package: libcrange1
+Package: libcrange0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Hostname and cluster manipulation libraries
  Details at https://github.com/ytoolshed/range
 
-Package: libcrange-dbg
+Package: libcrange0-dbg
 Section: debug
 Architecture: any
-Depends: libcrange1 (= ${binary:Version}), ${misc:Depends}
+Depends: libcrange0 (= ${binary:Version}), ${misc:Depends}
 Description: Hostname and cluster manipulation libraries
  Details at https://github.com/ytoolshed/range

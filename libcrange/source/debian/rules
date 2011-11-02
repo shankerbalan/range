@@ -11,7 +11,7 @@
 
 .PHONY: override_dh_strip
 override_dh_strip:
-	dh_strip --dbg-package=libcrange-dbg
+	dh_strip --dbg-package=libcrange0-dbg
 
 Build-Depends:
 	dh_autoreconf
